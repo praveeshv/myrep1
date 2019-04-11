@@ -1,0 +1,8 @@
+echo "enter the limit"
+read n
+for i in $(seq 1 $n)
+do rem=$((i%2))
+if [ $rem -eq 0 ]
+then echo "$i is even number"
+fi
+done
